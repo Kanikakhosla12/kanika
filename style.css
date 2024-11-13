@@ -1,0 +1,44 @@
+
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c8b9a9; /* Match main background color */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.image-section {
+    flex: 1;
+}
+
+.workspace-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.text-section {
+    flex: 1;
+    padding: 20px;
+    color: #3c2f2f;
+    background-color: #f3ebe2; /* Text background color to match image */
+    padding: 50px;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-top: 20px;
+}

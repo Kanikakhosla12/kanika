@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2f2f2f; /* Text color */
+    background: linear-gradient(to right, #b8ab94 50%, #d2c2ab 50%); /* Two-color background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-card img {
+    width: 300px; /* Increased and uniform image size */
+    height: 400px; /* Set a fixed height for uniformity */
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Ensures all images maintain aspect ratio within the set size */
+}
